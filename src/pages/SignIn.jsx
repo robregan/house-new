@@ -53,13 +53,15 @@ function SignIn() {
           <p className="pageHeader reggy">Register a new account</p>
         </Link>
 
+        <OAuth />
         <div className='signInBar'>
+          
             <p className='signInText'>Sign In</p>
             <button className='signInButton'>
               <ArrowRightIcon fill='#ffffff' width='34px' height='34px' />
             </button>
           </div>
-          <OAuth />
+        
         </header>
 
         <form onSubmit={onSubmit}>
